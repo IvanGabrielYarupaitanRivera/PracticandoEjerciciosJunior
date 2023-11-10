@@ -1,27 +1,21 @@
-# React + TypeScript + Vite
+# Ejercicios de React para Desarrolladores Junior
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este repositorio contiene cuatro ejercicios diseñados para ayudar a desarrolladores junior a practicar y mejorar sus habilidades en React.
 
-Currently, two official plugins are available:
+## Problema 1: Componente de Lista de Tareas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Desarrolla un componente de lista de tareas en React. Permite a los usuarios agregar, eliminar y marcar como completada cada tarea. Utiliza el estado local para gestionar la lista de tareas.
 
-## Expanding the ESLint configuration
+## Problema 2: Integración con API externa
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Crea una pequeña aplicación que se conecte a una API externa (por ejemplo, GitHub) para mostrar datos simples, como información de usuarios o repositorios. Maneja los estados de carga, éxito y error al realizar la solicitud HTTP.
 
-- Configure the top-level `parserOptions` property like this:
+## Ejercicio 3: Enrutamiento con React Router
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+Desarrolla una aplicación con dos páginas utilizando React Router. Implementa una página principal y una página secundaria con un menú de navegación. Asegúrate de que cada página tenga su propio componente y ruta correspondiente.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Ejercicio 4: Validación de Formularios
+
+Crea un formulario de registro o inicio de sesión con campos como nombre de usuario, contraseña y correo electrónico. Implementa validaciones básicas y muestra mensajes de error apropiados.
+
+---
